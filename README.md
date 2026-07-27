@@ -181,19 +181,6 @@ http://localhost/FLORAL%20CULTURE/
 
 ---
 
-# 📸 Screenshots
-
-> Screenshots will be added in a future update.
-
-Example:
-
-```
-screenshots/
-    dashboard.png
-    login.png
-    products.png
-    checkout.png
-```
 
 ---
 
