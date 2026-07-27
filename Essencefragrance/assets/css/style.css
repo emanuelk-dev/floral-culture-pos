@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFD700;
+  font-family: 'Segoe UI', sans-serif;
+  color: black;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 50px;
+}
+.hero-text { max-width: 50%; }
+.hero-text h1 { font-size: 60px; margin: 0 0 20px; }
+.hero-text p { font-size: 20px; margin-bottom: 30px; }
+.btn { background: black; color: gold; padding: 15px 30px; 
+    text-decoration: none; font-weight: bold; border-radius: 5px; }
+.btn:hover { background: #333; color: white; }
+.hero-image img { max-width: 400px; border-radius: 20px; }
+
+/* Products */
+.products { padding: 80px 50px; text-align: center; }
+.product-grid { display: flex; gap: 30px; justify-content: center; margin-top: 40px; }
+.product-card { background: #fff; padding: 20px; border-radius: 10px; width: 250px; }
+.product-card img { width: 100%; border-radius: 10px; }
+.product-card h3 { margin: 15px 0 0; }
+
+/* About */
+.about { background: rgba(0,0,0,0.05); padding: 80px 50px; text-align: center; }
+.about h2 { margin-bottom: 20px; font-size: 36px; }
+
+/* Testimonials */
+.testimonials { padding: 80px 50px; text-align: center; }
+.testimonial-grid { display: flex; gap: 30px; justify-content: center; margin-top: 40px; }
+.testimonial { background: #fff; padding: 30px; border-radius: 10px; max-width: 300px; }
+.testimonial p { font-style: italic; }
+.testimonial span { display: block; margin-top: 10px; font-weight: bold; }
+
+/* Footer */
+.footer { background: black; color: gold; padding: 20px; text-align: center; }

@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff0f7, #f5e6ff);
+    color: #333;
+}
+
+.cart-container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(128, 0, 128, 0.18);
+}
+
+h2 {
+    text-align: center;
+    color: #7b1fa2;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+th {
+    background: #8e24aa;
+    color: white;
+    padding: 14px;
+}
+
+td {
+    padding: 13px;
+    text-align: center;
+    border-bottom: 1px solid #f1d7f7;
+}
+
+tr:nth-child(even) {
+    background: #fff7fc;
+}
+
+.total-box {
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    color: #6a1b9a;
+    margin: 20px 0;
+}
+
+.checkout-form {
+    background: #fff7fc;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #f0c4f7;
+}
+
+.checkout-form h3 {
+    color: #8e24aa;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    color: #6a1b9a;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d8a7e8;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+    border-color: #8e24aa;
+    box-shadow: 0 0 6px rgba(142, 36, 170, 0.3);
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    background: linear-gradient(135deg, #8e24aa, #d81b60);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #6a1b9a, #ad1457);
+}

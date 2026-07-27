@@ -1,0 +1,82 @@
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #fff0f5; /* light floral pink */
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #800080; /* dark purple */
+        margin-bottom: 30px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f7e9ff; /* soft lilac */
+        color: #5a005a;
+    }
+
+    tr:hover {
+        background-color: #f1e4ff;
+    }
+
+    input[type="number"] {
+        width: 80px;
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        padding: 8px 14px;
+        background-color: #6a0dad;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #580089;
+    }
+
+    .sell-form {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .message {
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        color: green;
+    }
+    
+
+
+    
